@@ -21,11 +21,11 @@ function draw() {
 
     if (mouseIsPressed == false) {
         line(random(mouseX), random(mouseY), height / 2, width / 2);
-    } else {
-        background(0);
-        fill(0);
         redValue = random(255);
         greenValue = random(0);
         blueValue = random(0);
+    } else {
+        background(0);
+        fill(0);
     }
 }
