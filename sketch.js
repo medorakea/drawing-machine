@@ -25,7 +25,7 @@ function draw() {
         background(0);
         fill(0);
         redValue = random(255);
-        greenValue = random(150);
-        blueValue = random(50);
+        greenValue = random(0);
+        blueValue = random(0);
     }
 }
