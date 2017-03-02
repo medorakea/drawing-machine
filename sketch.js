@@ -17,7 +17,7 @@ function draw() {
     greenValue = random(255);
     blueValue = random(255);
 
-    stroke(redValue, 200, blueValue);
+    stroke(220, greenValue, blueValue);
 
     if (mouseIsPressed == false) {
         line(random(mouseX), random(mouseY), height / 2, width / 2);
