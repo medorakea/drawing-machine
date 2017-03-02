@@ -6,11 +6,10 @@ function setup() {
     createCanvas(windowWidth,windowHeight);
     fill(0);
     frameRate(20);
+    background(0);
 }
 
 function draw() {
-    
-    background(0);
 
     noFill();
     
