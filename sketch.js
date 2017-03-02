@@ -13,11 +13,11 @@ function draw() {
 
     noFill();
     
-    redValue = random(150,255);
+    redValue = random(200,255);
     greenValue = random(255);
     blueValue = random(255);
 
-    stroke(redValue, 50, 50);
+    stroke(redValue, 100, 0);
 
     if (mouseIsPressed == false) {
         line(random(mouseX), random(mouseY), height / 2, width / 2);
