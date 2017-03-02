@@ -4,12 +4,13 @@ var blueValue = 0;
 
 function setup() {
     createCanvas(windowWidth,windowHeight);
-    background(0);
     fill(0);
     frameRate(90);
 }
 
 function draw() {
+    
+    background(0);
 
     noFill();
     
