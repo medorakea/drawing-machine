@@ -14,8 +14,8 @@ function draw() {
     noFill();
     
     redValue = random(200,255);
-    greenValue = random(90,120);
-    blueValue = random(20,40);
+    greenValue = random(80,130);
+    blueValue = random(10,50);
 
     stroke(redValue, 100, blueValue);
 
