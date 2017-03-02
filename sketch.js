@@ -5,7 +5,7 @@ var blueValue = 0;
 function setup() {
     createCanvas(windowWidth,windowHeight);
     fill(0);
-    frameRate(90);
+    frameRate(20);
 }
 
 function draw() {
@@ -18,7 +18,7 @@ function draw() {
     greenValue = random(255);
     blueValue = random(255);
 
-    stroke(redValue, greenValue, blueValue, 1);
+    stroke(redValue, greenValue, blueValue, 10);
 
     if (mouseIsPressed == false) {
         line(random(mouseX), random(mouseY), height / 2, width / 2);
